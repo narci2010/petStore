@@ -6,7 +6,7 @@ import com.petstore.services.PetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
 import java.util.List;
 
 /**
@@ -14,6 +14,8 @@ import java.util.List;
  */
 @Controller
 @RequestMapping(value = "/api/pet", produces = "application/json")
+// 解决跨域访问问题
+@CrossOrigin(origins = "http://localhost:4200")
 public class PetController {
 
 	@Autowired
