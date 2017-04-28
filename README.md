@@ -1,3 +1,6 @@
+前台ng2:4200
+跨域访问
+后台springboot：8080
 # Pet Store
 
 [![Build Status](https://travis-ci.org/Mathou54/petStore.svg?branch=master)](https://travis-ci.org/Mathou54/petStore)
